@@ -68,7 +68,7 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
       switchToNextPlayer();
     }
   } else {
-    alert("Тоглоом дууссан байна. New Game товчийг дарж шинээр эхэлнэ үү  ");
+    alert("Тоглоом дууссан байна. Start Game товчийг дарж шинээр эхэлнэ үү  ");
   }
 });
 // холд товчний эвент листенэр
@@ -93,7 +93,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
       switchToNextPlayer();
     }
   } else {
-    alert("Тоглоом дууссан байна. New Game товчийг дарж шинээр эхэлнэ үү  ");
+    alert("Тоглоом дууссан байна. Start Game товчийг дарж шинээр эхэлнэ үү  ");
   }
 
   //   Ээлжийн оноог 0 болгоно.
